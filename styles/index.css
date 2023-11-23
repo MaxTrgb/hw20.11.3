@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+.hero {
+	margin: 50px;
+	display: flex;
+	gap: 25px;
+}
+
+.card {
+	width: 240px;
+	height: 350px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0.5rem 0.5rem 0.5rem grey;
+	font-family: 'Roboto';
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	transition: 0.5s;
+}
+.card__header {
+	margin-top: 10px;
+	font-size: 18px;
+}
+.card:hover {
+	transform: scale(1.2);
+}
+
+.card__line {
+	height: 4px;
+	width: 100%;
+}
+.card__price_title {
+	font-size: 44px;
+	font-weight: 700;
+}
+.card__price {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card__content {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.card__price_text_blind {
+	font-size: 18px;
+	color: grey;
+	font-weight: 300;
+}
+.card a:hover {
+	transform: scale(1.2);
+}
+
+
+.card__content p {
+	font-weight: 900;
+}
+
+.card a {
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	padding: 10px 30px;
+	border-radius: 10px;
+	margin-bottom: 8px;
+	transition: 0.4s;
+}
+
+
+
+.redBackground {
+	background-color: red;
+}
+.blueBackground {
+	background-color: blue;
+}
+
+.greenBackground {
+	background-color: green;
+}
+.orangeBackground {
+	background-color: orange;
+}
+
